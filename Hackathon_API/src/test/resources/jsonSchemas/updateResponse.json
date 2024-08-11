@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "status": {
+      "type": "string"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "employee name": {
+          "type": "string"
+        },
+        "employee_salary": {
+          "type": "string"
+        },
+        "employee_age": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "employee name",
+        "employee_salary",
+        "employee_age"
+      ]
+    },
+    "message": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "status",
+    "data",
+    "message"
+  ]
+}

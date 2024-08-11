@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Dummy_API_TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test_CRUD(failed)">
+    <classes>
+      <class name="apitestcases.GetEmployeeTests">
+        <methods>
+          <include name="getAllEmployeeData"/>
+          <include name="fetchSpecificEmployeeByID"/>
+        </methods>
+      </class> <!-- apitestcases.GetEmployeeTests -->
+      <class name="apitestcases.CreatePutDeleteTests">
+        <methods>
+          <include name="createNewEmployee" invocation-numbers="0"/>
+          <include name="verifyDeleteEmployeeByID"/>
+          <include name="updateEmployeeByID" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- apitestcases.CreatePutDeleteTests -->
+    </classes>
+  </test> <!-- Test_CRUD(failed) -->
+</suite> <!-- Failed suite [Dummy_API_TestSuite] -->

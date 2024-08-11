@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-04T08:24:45 UTC" name="Default suite" finished-at="2024-08-04T08:24:46 UTC" duration-ms="1813">
+    <groups>
+    </groups>
+    <test started-at="2024-08-04T08:24:45 UTC" name="Default test" finished-at="2024-08-04T08:24:46 UTC" duration-ms="1813">
+      <class name="apitestcases.APiTests">
+        <test-method signature="testCase_01()[pri:0, instance:apitestcases.APiTests@7722c3c3]" started-at="2024-08-04T08:24:45 UTC" name="testCase_01" finished-at="2024-08-04T08:24:46 UTC" duration-ms="1574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_01 -->
+      </class> <!-- apitestcases.APiTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
